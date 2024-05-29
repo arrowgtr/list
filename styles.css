@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #00ff7b;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #00ff7b;
+}
+
+#toDoListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.day-container {
+    font-size: 23px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #00ff7b;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    color: #00ff7b;
+    font-weight: bolder;
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.day-header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task {
+
+    display: flex;
+    align-items: left;
+    margin-bottom: 5px;
+}
+.task label{
+    position: relative;
+    top: 5px;
+     
+    }
+
+.task input[type="checkbox"] {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    margin-right: 10px;
+    accent-color: #00ff7b; /* Change the color when checked */
+}
+
+
+#progressContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#progressBar {
+    width: 0;
+    height: 30px;
+    background-color: #000000;
+    border: 1px solid #00ff7b;
+    border-radius: 5px;
+   
+}
+
+#progressText {
+    background-color: black;
+    color: #00ff7b;
+    margin-top: 10px;
+    font-size: 18px;
+    font-size: 73px;
+    font-weight: bolder;
+   
+}
+
+.small-font {
+    font-size: 20px; /* Adjust the size as needed */
+}
+
+#resetButton
+{position: relative;
+top: 133px;
+left: 80%;
+background-color: #000000;
+color: #00ff7b;
+width: 250px;
+height: 90px;
+font-size: 33px;
+border: outset 23px black;
+cursor: pointer;
+
+}
+
+#resetButton:hover
+{
+border: inset 23px black;
+
+}
